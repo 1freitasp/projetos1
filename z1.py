@@ -1,5 +1,5 @@
 ## primeiro projeto usando laços de repetiçao
-## consiste em um jogo onde o usuario tem que inserir informaçoes iniciais e acertar uma pergunta
+## consiste em um jogo onde o usuario tem que inserir informações iniciais e responder uma pergunta
 
 nome = str(input("olá,qual o seu nome?"))
 print("olá", nome)
