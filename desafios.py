@@ -46,4 +46,12 @@ while sorteio == 'sim':
     break
 print('fim do programa')
 
+# DESAFIO 21 (crie um programa que leia o nome completo de uma pessoa e mostra:
+# O nome com todas as letras maiúsculas
+# O nome com todas minúsculas.
+# Quantos letras do todo (sam considerar espaços).
+# Quantas letras tem o primairo nome.)
+
+
+
 
