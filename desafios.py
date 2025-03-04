@@ -46,12 +46,17 @@ while sorteio == 'sim':
     break
 print('fim do programa')
 
-# DESAFIO 21 (crie um programa que leia o nome completo de uma pessoa e mostra:
+# DESAFIO 22 (crie um programa que leia o nome completo de uma pessoa e mostra:
 # O nome com todas as letras maiúsculas
 # O nome com todas minúsculas.
 # Quantos letras do todo (sam considerar espaços).
 # Quantas letras tem o primairo nome.)
+n = str(input('insira seu nome'))
+print(n.upper())
+print(n.lower())
+print(len(n.replace(' ','')))
+print(n.find(' '))
 
-
+# DESAFIO 23 (crie um programa que leia um numero entre 0 e 9999 e mostre caracter por caracter)
 
 
