@@ -58,5 +58,29 @@ print(len(n.replace(' ','')))
 print(n.find(' '))
 
 # DESAFIO 23 (crie um programa que leia um numero entre 0 e 9999 e mostre caracter por caracter)
+## método 1
+n = int(input('insira um numero inteiro(0-9999)'))
+num = str(n)
+if 0 <= n <= 9:
+    unidade = num
+    dezena = centena = milhar = '0'
+elif 10 <= n <= 99:
+    unidade = num[1]
+    dezena = num[0]
+    centena = milhar = '0'
+elif 100 <= n <= 999:
+    unidade = num[2]
+    dezena = num[1]
+    centena = num[0]
+    milhar = '0'
+elif 1000 <= n <= 9999:
+    unidade = num[3]
+    dezena = num[2]
+    centena = num[1]
+    milhar = num[0]
+print(f'a unidade é {unidade}, a dezena é {dezena}, a centena é {centena} e o milhar é {milhar}')
+
+## método 2
+
 
 
