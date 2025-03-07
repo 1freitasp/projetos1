@@ -81,6 +81,3 @@ elif 1000 <= n <= 9999:
 print(f'a unidade é {unidade}, a dezena é {dezena}, a centena é {centena} e o milhar é {milhar}')
 
 ## método 2
-
-
-
