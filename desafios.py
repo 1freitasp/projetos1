@@ -81,6 +81,19 @@ elif 1000 <= n <= 9999:
 print(f'a unidade é {unidade}, a dezena é {dezena}, a centena é {centena} e o milhar é {milhar}')
 
 ## método 2
+n = int(input('insira um numero inteiro'))
+unidade = n % 10
+dezena = (n % 100) // 10
+centena = (n % 1000) // 100
+milhar = (n % 10000) // 1000
+print(f"Unidade: {unidade}, Dezena: {dezena}, Centena: {centena}, Milhar: {milhar}")
+
+# DESAFIO 24 (crie um porgrama que leia o nome de uma cidade e mostre se ele começa com SANTO)
+city = str(input('insira o nome da cidade'))
+if 'santo' in city[0:6] or 'Santo' in city[0:6]:
+    print(' o nome da cidade começa com ''santo'' ')
+else:
+    print('o nome da cidade nao começa com ''santo'' ')
 
 # DESAFIO 25 (crie um programa que diz se a pessoa tem ou nao ''Santos'' no nome)
 nome = str(input('insira o seu nome completo'))
@@ -90,3 +103,4 @@ else:
     print('o usuario nao possui ''santos'' no nome')
 
 # DESAFIO 26 (detectar quantas vezes a letra A aparece em uma frase e qual a primeira e a ultima posiçao)
+
