@@ -81,3 +81,12 @@ elif 1000 <= n <= 9999:
 print(f'a unidade é {unidade}, a dezena é {dezena}, a centena é {centena} e o milhar é {milhar}')
 
 ## método 2
+
+# DESAFIO 25 (crie um programa que diz se a pessoa tem ou nao ''Santos'' no nome)
+nome = str(input('insira o seu nome completo'))
+if nome.find('Santos') != -1 or nome.find('santos') != -1:
+    print('o ususario possui ''santos'' no nome ')
+else:
+    print('o usuario nao possui ''santos'' no nome')
+
+# DESAFIO 26 (detectar quantas vezes a letra A aparece em uma frase e qual a primeira e a ultima posiçao)
