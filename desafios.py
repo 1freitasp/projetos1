@@ -103,8 +103,7 @@ else:
     print('o usuario nao possui ''santos'' no nome')
 
 # DESAFIO 26 (detectar quantas vezes a letra A aparece em uma frase e qual a primeira e a ultima posiçao)
-frase = str(input('Insira uma frase: '))
-frase = frase.upper()
+frase = str(input('Insira uma frase: ')).upper()
 contagem = frase.count('A')  
 loc = frase.find('A')
 lastloc = frase.rfind('A')
