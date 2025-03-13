@@ -115,3 +115,12 @@ n = nome[0]
 nome.reverse()
 rl = nome[0]
 print(f'seu primeiro nome é {n}. e o seu ultimo nome é {rl}')
+
+# DESAFIO 28
+import random 
+n = random.randint(1,5)
+pergunta = input(‘advinhe o número de 1 a 5’)
+if pergunta == n:
+    print('parabéns, resposta certa!')
+else:
+    print('resposta errada')
