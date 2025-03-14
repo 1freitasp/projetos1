@@ -124,3 +124,36 @@ if pergunta == n:
     print('parabéns, resposta certa!')
 else:
     print('resposta errada')
+
+# DESAFIO 29
+v = float(input('insira a velocidade do veiculo'))
+multa = (v - 80) * 7
+if v > 80:
+    print(f'voce pagara uma multa de {multa}')
+else:
+    print('vcoe nao recebera multa')
+
+# DESAFIO 30
+n = int(input('insira um numero inteiro'))
+if n % 2 == 0:
+    print('o numero escolhido é par')
+else: 
+    print('numero impar')
+
+# DESAFIO 31
+dis = float(input('insira a distancia da viagem em km'))
+if dis <= 200:
+    taxa = dis * 0.50
+    print(f'voce pagará uma taxa de {taxa}')
+else:
+    taxa = dis * 0.45
+    print(f'voce pagará uma taxa de {taxa}')
+
+# DESAFIO 32
+ano = int(input('insira o ano'))
+
+if ano % 4 == 0:
+    print('ano bissexto')
+else: 
+    print('o ano nao é bissexto')
+
