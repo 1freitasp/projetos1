@@ -157,3 +157,8 @@ if ano % 4 == 0:
 else: 
     print('o ano nao é bissexto')
 
+# DESAFIO 33
+num_list = list(map(int, input('insira tres numeros divididos por espaço: ').split(' ')))
+num_list.sort()
+print(num_list)
+print(f'o menor valor é {num_list[0]}, o maior é {num_list[2]}')
